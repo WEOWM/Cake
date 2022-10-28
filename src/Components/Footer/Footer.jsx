@@ -4,6 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div >
+      <hr />
       <div className="container-fluid ">
         <div className="row footer text-right ">
 

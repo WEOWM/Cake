@@ -7,12 +7,15 @@ const Header = () => {
     return (
         <div>
             <nav className='nav2 ' >
-                <h4 className='ms-4'>Cake Boy</h4>
-                <div className="align">
+                <h4 className='ms-4 '>Cake Boy</h4>
+                <div className="align mx-auto">
 
-                    <ul className="nav  gap-5  ">
+                    <ul className="nav  gap-5  ms-5 ">
                         <li className="nav-item ">
                             <NavLink className="nav-link hvr " aria-current="page" to="wwwww">Home</NavLink>
+                        </li>
+                        <li className="nav-item ">
+                            <NavLink className="nav-link hvr " aria-current="page" to="wwwww">Order</NavLink>
                         </li>
                         <li className="nav-item ">
                             <NavLink className="nav-link  hvr" aria-current="page" to="wwwww">Profile</NavLink>
@@ -25,10 +28,7 @@ const Header = () => {
                         </li>
 
                     </ul>
-                    <form className='d-flex' >
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                   
                 </div>
             </nav>
         </div>

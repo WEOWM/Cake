@@ -9,6 +9,13 @@
   
     
 }
-.nav-link:hover{
+.smal-head:hover{
     color: red;
+}
+.mob-nov {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
 }
