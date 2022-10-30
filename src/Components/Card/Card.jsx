@@ -22,7 +22,7 @@ const Card = () => {
                                     <p class="card-text lead fw-bolder">{iteam.Price}</p>
 
                                     <NavLink to={`/product/${iteam.id}`} className="btn btn-outline-dark ">Buy Now</NavLink>
-                                </div>p
+                                </div>
                             </div>
                         </div>
                    
