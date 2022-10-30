@@ -1,0 +1,9 @@
+:root{
+    --primary:#472D2D;
+    --secondery:#DFBB9D;
+}
+.crd{
+    border-radius: 3px;
+    background-color:var(--secondery) ;
+   
+}

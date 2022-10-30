@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+:root {
+    --primary: #472D2D;
+    --secondery: #DFBB9D;
+    --third:#B73E3E;
+}
+
+.align10 {
+    display: flex;
+  
+}
+
+.nav-bar li {
+    list-style: none;
+
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.nav-bar a:hover {
+    color: var(--third);
+    transition: color 0.5s ease;
+
+
+}
+
+.logo {
+    color: var(--primary);
+}
+
+.nav-bar {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+    right: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Shalimar', cursive;
+    font-size: larger;
+    letter-spacing: .2rem;
+
+}
+
+
+@media only screen and (max-width:992px) {
+    .align10 {
+        display: none;
+
+    }
+
+
+}
+
+@media only screen and (min-width:992px) {
+    .mob-nav {
+        display: none;
+    }
+
+
+}
+
+.mob-nav {
+    width: 100%;
+    height: 5rem;
+
+}
+
+.sub-nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.handbuger {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.brand-name {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Shalimar', cursive;
+}
+
+.mob-offcan {
+    width: 70%;
+
+}
+
+.mob-offcan-head {
+    background-color:var(--secondery);
+    height: 5rem;
+    font-family: 'Shalimar', cursive;
+    
+
+
+}
+
+.mob-offcan-body li {
+    list-style: none;
+    display: flex;
+   
+
+
+}
+.mob-offcan-body li a:hover{
+    color: var(--third);
+    transition: color 0.5s ease;
+}
+
+.mob-offcan-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  
+}
+
+.mob-offcan-body a {
+    text-decoration: none;
+    color: var(--primary);
+
+}
+.fw-bold{
+    letter-spacing: 0.2rem;
+}

@@ -1,10 +1,21 @@
+:root{
+    --primary:#472D2D;
+    --secondery:#DFBB9D;
+    --third:#B73E3E;
+}
 .footer{
-    background-color:rgba(158, 150, 150, 0.205);
+    background-color:var(--secondery) ;
+    color: var(--primary);
     padding: 5rem;
     list-style: none;
     padding-left: 8rem;
+    cursor: pointer;
     
    
+}
+.fd li:hover{
+    color: var(--third);
+    transition: color .5s ease;
 }
 
 .fd li {

@@ -14,7 +14,7 @@ const Card = () => {
                     <div className="col-md-3 p-2 mt-5">
                    
 
-                            <div class="card  h-100 text-center" key={index}>
+                            <div class=" crd shadow-sm card  h-100 text-center" key={index}>
                                 <img src={iteam.image} class="card-img-top" alt="..." height="200px"/>
                                 <div class="card-body">
                                     <h5 class="card-title ">{iteam.previewDescription.substring(0,12)}...</h5>
