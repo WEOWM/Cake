@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div >
+    <div className='mt-5 pt-5'>
       <hr />
       <div className="container-fluid ">
         <div className="row footer text-right ">
