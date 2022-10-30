@@ -7,8 +7,8 @@ import Produtscart from './Pages/Carting/Produtscart'
 const App = () => {
   return (
     <div>
-     {/* <Home/> */}
-     <Produtscart/>
+     <Home/>
+     {/* <Produtscart/> */}
     
 
     </div>
