@@ -22,11 +22,11 @@ const Card = () => {
                                         <h5 className="card-title ">{iteam.previewDescription.substring(0, 12)}...</h5>
                                         <p className="card-text lead fw-bolder">{iteam.Price}</p>
 
-                                        <NavLink to={`/product/${iteam.id}`} className="btn btn-outline-dark ">Buy Now</NavLink>
-                                    </div>
+                                    <NavLink to={`/product/${iteam.id}`} className="btn btn-outline-dark ">Buy Now</NavLink>
                                 </div>
                             </div>
-
+                        </div>
+                   
 
 
 
